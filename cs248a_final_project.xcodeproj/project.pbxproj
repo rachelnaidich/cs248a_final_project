@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61EF6C329C7D4B2004EB33D /* OcclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6C229C7D4B2004EB33D /* OcclusionViewController.swift */; };
+		B61EF6C529C7D4DE004EB33D /* OcclusionRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6C429C7D4DE004EB33D /* OcclusionRenderer.swift */; };
+		B61EF6C829C7E071004EB33D /* PlaneRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6C729C7E071004EB33D /* PlaneRenderer.swift */; };
+		B61EF6CA29C7E083004EB33D /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6C929C7E083004EB33D /* PlaneViewController.swift */; };
+		B61EF6EF29C80A05004EB33D /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6EE29C80A05004EB33D /* ShadowViewController.swift */; };
+		B61EF6F129C80A10004EB33D /* ColorHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6F029C80A10004EB33D /* ColorHandViewController.swift */; };
+		B61EF6F329C80A1A004EB33D /* OutlineHandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6F229C80A1A004EB33D /* OutlineHandViewController.swift */; };
+		B61EF6F629C9A1FE004EB33D /* PlaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6F529C9A1FE004EB33D /* PlaneNode.swift */; };
+		B61EF6F829C9A215004EB33D /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6F729C9A215004EB33D /* WaterViewController.swift */; };
+		B61EF6FA29C9A5B4004EB33D /* SceneKitShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6F929C9A5B4004EB33D /* SceneKitShaders.metal */; };
+		B61EF6FE29C9ABE4004EB33D /* RainbowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61EF6FD29C9ABE4004EB33D /* RainbowViewController.swift */; };
 		B62A500A29C41EDB0032BF1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A500929C41EDB0032BF1C /* AppDelegate.swift */; };
 		B62A500C29C41EDB0032BF1C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B62A500B29C41EDB0032BF1C /* Shaders.metal */; };
 		B62A500F29C41EDB0032BF1C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A500E29C41EDB0032BF1C /* Renderer.swift */; };
@@ -17,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B61EF6C229C7D4B2004EB33D /* OcclusionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcclusionViewController.swift; sourceTree = "<group>"; };
+		B61EF6C429C7D4DE004EB33D /* OcclusionRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcclusionRenderer.swift; sourceTree = "<group>"; };
+		B61EF6C729C7E071004EB33D /* PlaneRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneRenderer.swift; sourceTree = "<group>"; };
+		B61EF6C929C7E083004EB33D /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
+		B61EF6EE29C80A05004EB33D /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
+		B61EF6F029C80A10004EB33D /* ColorHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHandViewController.swift; sourceTree = "<group>"; };
+		B61EF6F229C80A1A004EB33D /* OutlineHandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineHandViewController.swift; sourceTree = "<group>"; };
+		B61EF6F529C9A1FE004EB33D /* PlaneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneNode.swift; sourceTree = "<group>"; };
+		B61EF6F729C9A215004EB33D /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
+		B61EF6F929C9A5B4004EB33D /* SceneKitShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SceneKitShaders.metal; sourceTree = "<group>"; };
+		B61EF6FD29C9ABE4004EB33D /* RainbowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowViewController.swift; sourceTree = "<group>"; };
 		B62A500629C41EDB0032BF1C /* cs248a_final_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs248a_final_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62A500929C41EDB0032BF1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62A500B29C41EDB0032BF1C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
@@ -27,6 +49,7 @@
 		B62A501529C41EDB0032BF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62A501829C41EDB0032BF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62A501A29C41EDB0032BF1C /* cs248a_final_project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cs248a_final_project-Bridging-Header.h"; sourceTree = "<group>"; };
+		B62A502229C7BA170032BF1C /* cs248a-final-project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "cs248a-final-project-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +63,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B61EF6C029C7C72D004EB33D /* Textures+Cubes */ = {
+			isa = PBXGroup;
+			children = (
+				B62A501029C41EDB0032BF1C /* ViewController.swift */,
+				B62A500E29C41EDB0032BF1C /* Renderer.swift */,
+			);
+			path = "Textures+Cubes";
+			sourceTree = "<group>";
+		};
+		B61EF6C129C7D49E004EB33D /* Occlusion */ = {
+			isa = PBXGroup;
+			children = (
+				B61EF6C229C7D4B2004EB33D /* OcclusionViewController.swift */,
+				B61EF6F029C80A10004EB33D /* ColorHandViewController.swift */,
+				B61EF6EE29C80A05004EB33D /* ShadowViewController.swift */,
+				B61EF6C429C7D4DE004EB33D /* OcclusionRenderer.swift */,
+				B61EF6F229C80A1A004EB33D /* OutlineHandViewController.swift */,
+			);
+			path = Occlusion;
+			sourceTree = "<group>";
+		};
+		B61EF6C629C7E05A004EB33D /* Plane */ = {
+			isa = PBXGroup;
+			children = (
+				B61EF6C729C7E071004EB33D /* PlaneRenderer.swift */,
+				B61EF6C929C7E083004EB33D /* PlaneViewController.swift */,
+			);
+			path = Plane;
+			sourceTree = "<group>";
+		};
+		B61EF6F429C9A1BD004EB33D /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				B61EF6F529C9A1FE004EB33D /* PlaneNode.swift */,
+				B61EF6F729C9A215004EB33D /* WaterViewController.swift */,
+				B61EF6FD29C9ABE4004EB33D /* RainbowViewController.swift */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
 		B62A4FFD29C41EDB0032BF1C = {
 			isa = PBXGroup;
 			children = (
@@ -59,15 +122,19 @@
 		B62A500829C41EDB0032BF1C /* cs248a_final_project */ = {
 			isa = PBXGroup;
 			children = (
+				B62A502229C7BA170032BF1C /* cs248a-final-project-Info.plist */,
 				B62A500929C41EDB0032BF1C /* AppDelegate.swift */,
 				B62A500B29C41EDB0032BF1C /* Shaders.metal */,
 				B62A500D29C41EDB0032BF1C /* ShaderTypes.h */,
-				B62A500E29C41EDB0032BF1C /* Renderer.swift */,
-				B62A501029C41EDB0032BF1C /* ViewController.swift */,
+				B61EF6F429C9A1BD004EB33D /* Water */,
+				B61EF6C129C7D49E004EB33D /* Occlusion */,
+				B61EF6C029C7C72D004EB33D /* Textures+Cubes */,
+				B61EF6C629C7E05A004EB33D /* Plane */,
 				B62A501229C41EDB0032BF1C /* Main.storyboard */,
 				B62A501529C41EDB0032BF1C /* Assets.xcassets */,
 				B62A501729C41EDB0032BF1C /* LaunchScreen.storyboard */,
 				B62A501A29C41EDB0032BF1C /* cs248a_final_project-Bridging-Header.h */,
+				B61EF6F929C9A5B4004EB33D /* SceneKitShaders.metal */,
 			);
 			path = cs248a_final_project;
 			sourceTree = "<group>";
@@ -143,8 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61EF6C329C7D4B2004EB33D /* OcclusionViewController.swift in Sources */,
 				B62A500C29C41EDB0032BF1C /* Shaders.metal in Sources */,
+				B61EF6FE29C9ABE4004EB33D /* RainbowViewController.swift in Sources */,
+				B61EF6C529C7D4DE004EB33D /* OcclusionRenderer.swift in Sources */,
+				B61EF6F329C80A1A004EB33D /* OutlineHandViewController.swift in Sources */,
+				B61EF6F629C9A1FE004EB33D /* PlaneNode.swift in Sources */,
+				B61EF6F129C80A10004EB33D /* ColorHandViewController.swift in Sources */,
+				B61EF6FA29C9A5B4004EB33D /* SceneKitShaders.metal in Sources */,
+				B61EF6EF29C80A05004EB33D /* ShadowViewController.swift in Sources */,
+				B61EF6CA29C7E083004EB33D /* PlaneViewController.swift in Sources */,
+				B61EF6F829C9A215004EB33D /* WaterViewController.swift in Sources */,
 				B62A500F29C41EDB0032BF1C /* Renderer.swift in Sources */,
+				B61EF6C829C7E071004EB33D /* PlaneRenderer.swift in Sources */,
 				B62A501129C41EDB0032BF1C /* ViewController.swift in Sources */,
 				B62A500A29C41EDB0032BF1C /* AppDelegate.swift in Sources */,
 			);
@@ -293,7 +371,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ8Q3582TX;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cs248a-final-project-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -301,9 +381,8 @@
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +404,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQ8Q3582TX;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cs248a-final-project-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -333,9 +414,8 @@
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

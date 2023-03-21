@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  PlaneViewController.swift
 //  cs248a_final_project
 //
-//  Created by Rachel Naidich on 3/16/23.
+//  Created by Rachel Naidich on 3/19/23.
 //
 
 import UIKit
@@ -10,13 +10,10 @@ import Metal
 import MetalKit
 import ARKit
 
-extension MTKView : RenderDestinationProvider {
-}
-
-class ViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
+class PlaneViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
     
     var session: ARSession!
-    var renderer: Renderer!
+    var renderer: PlaneRenderer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +34,7 @@ class ViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
             }
             
             // Configure the renderer to draw to the view
-            renderer = Renderer(session: session, metalDevice: view.device!, renderDestination: view)
+            renderer = PlaneRenderer(session: session, metalDevice: view.device!, renderDestination: view)
             
             renderer.drawRectResized(size: view.bounds.size)
         }
@@ -51,6 +48,9 @@ class ViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
         
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
+        
+        configuration.planeDetection = .horizontal
+        session.run(configuration)
 
         // Run the view's session
         session.run(configuration)
@@ -84,6 +84,10 @@ class ViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
     // Called whenever view changes orientation or layout is changed
     func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {
         renderer.drawRectResized(size: size)
+        
+        let sizeInPixels = CGSize( width: size.width * view.contentScaleFactor,  height: size.height * view.contentScaleFactor )
+
+        renderer.updateScreenSizes( size: sizeInPixels )
     }
     
     // Called whenever the view needs to render
